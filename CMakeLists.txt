@@ -2,7 +2,7 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-set(PROJECT_NAME "ivan-ar-helmet-hud")
+set(PROJECT_NAME "Project-Ivan")
 project(${PROJECT_NAME})
 
 # Include the ESP-IDF build system
