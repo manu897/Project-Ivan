@@ -23,7 +23,7 @@
 | Helmet             | MT Stringer 2 with Universal Comms Slot (UCS)          |
 | Battery Management | PL4054 onboard Li-ion charge controller (with LED indicator) |
 | Power Regulator    | ME6217C33M5G LDO, 3.3V @ 800mA max                        |
-| Battery Input       | MX1.25 connector for 3.7V LiPo cells                     |
+| Battery Input      | MX1.25 connector for 3.7V LiPo cells                     |
 | Audio (planned)    | Bone conduction or flat helmet speakers + Class D amp  |
 
 ---
