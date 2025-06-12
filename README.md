@@ -41,14 +41,13 @@
 ## 💻 Project Structure
 
 ```bash
-    ├── main/ # Core application (app_main.c)
-    ├── components/ # LVGL, display, IMU drivers
-    ├── docs/ # Design notes, planning logs
-    ├── CMakeLists.txt
-    ├── sdkconfig
-    └── README.md
+├── main/ # Core application (app_main.c)
+├── components/ # LVGL, display, IMU drivers
+├── docs/ # Design notes, planning logs
+├── CMakeLists.txt
+├── sdkconfig
+└── README.md
 ```
-
 
 ---
 
@@ -66,19 +65,19 @@
 ## 🧪 Quick Start (ESP-IDF)
 
 ```bash
-. $HOME/esp/esp-idf/export.sh
+$HOME/esp/esp-idf/export.sh
+
 idf.py set-target esp32s3
+
 idf.py build
+
 idf.py flash monitor
 ```
 
 ## 📚 Docs & Resources
-
-ESP32-S3 LCD 1.3" - Waveshare Wiki
-
-LVGL for ESP32
-
-ESP-IDF Docs
+- [**Waveshare ESP32-S3 LCD 1.3" Wiki**](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.3)
+- [**LVGL for ESP32 (GitHub)**](https://github.com/lvgl/lv_port_esp32)
+- [**ESP-IDF Documentation**](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
 
 ## 📌 License
 
@@ -86,7 +85,6 @@ MIT License. Built for personal experimentation and learning.
 
 ## 📄 About the Author
 
-Project by @manu897. Inspired by Ivan Sutherland’s vision of head-mounted computing.
+Project by [**Manideep**](https://github.com/manu897). Inspired by Ivan Sutherland’s vision of head-mounted computing.
 
 Want to contribute? Fork the repo or open an issue!
-
